@@ -1,10 +1,12 @@
-This repository computes the galactic and terrestrial microwave windows, relevant for the Search for Extraterrestrial Intelligence (SETI).
+# The Galactic/Terrestrial Microwave Windows ("The Water Hole")
 
-The microwave window is defined by:
+This repository computes the brightness temperature received at radio telescopes due to a variety of environmental and noise factors.  These contributions are highly relevant for those attempting to Search for Extraterrestrial Intelligence (SETI).
 
-i) Synchrotron emission from the Galaxy
-ii) The shot noise limit
-iii) The cosmic microwave background
-iv) Absorption by the Earth's atmosphere
+The Jupyter notebook enclosed computes contributions from:
 
-The Jupyter notebook enclosed computes all four effects.  Earth's atmospheric absorption data was computed using the Planetary Spectrum Generator (assuming Mauna Kea conditions).
+ 1. Synchrotron emission from the Galaxy
+ 2. The shot noise limit
+ 3. The cosmic microwave background
+ 4. Absorption by the Earth's atmosphere
+
+Earth's atmospheric absorption data was pre-computed using the Planetary Spectrum Generator (assuming Mauna Kea conditions).
