@@ -3,6 +3,12 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dh4gan/waterhole/master)
 
+## How to Run the Notebook
+
+Click the binder badge above to launch the Jupyter Notebook.
+
+## About This Notebook
+
 This repository computes the brightness temperature received at radio telescopes due to a variety of environmental and noise factors.  These contributions are highly relevant for those attempting to Search for Extraterrestrial Intelligence (SETI).
 
 The Jupyter notebook enclosed computes contributions from:
@@ -13,3 +19,4 @@ The Jupyter notebook enclosed computes contributions from:
  4. Absorption by the Earth's atmosphere
 
 Earth's atmospheric absorption data was pre-computed using the Planetary Spectrum Generator (assuming Mauna Kea conditions), and is saved in the file `atmosphere_wet.txt`.
+
